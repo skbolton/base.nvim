@@ -41,7 +41,7 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 Clone base to config location.
 
 ```bash
-git clone https://github.com/skbolton/base.nvim ~/.config/nvim
+git clone --depth 1 https://github.com/skbolton/base.nvim ~/.config/nvim
 ```
 
 Move into config directory.
