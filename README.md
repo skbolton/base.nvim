@@ -20,7 +20,7 @@ This repo is a base template for those who want to skip using a [preconfigured c
 
 ## Getting Started
 
-If you have an existing Neovim setup move it to a backup location in case you want it back or want to copy from it.
+If you have an existing Neovim setup move it to a backup location in case you want it back or to copy from it.
 
 ```bash
 mv ~/.config/nvim ~/.config/nvim-backup
@@ -33,20 +33,19 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
-
-Clone this repo to your config folder
+Clone base to config location.
 
 ```bash
 git clone https://github.com/skbolton/base ~/.config/nvim
 ```
 
-Move into config directory
+Move into config directory.
 
 ```bash
 cd ~/.config/nvim
 ```
 
-Remove existing git directory. Seriously. This config will be yours and as such you shouldn't need to keep up to date with the project
+Remove existing git directory. Seriously! Moving forward this config will be yours and in the spirit of the project you shouldn't need to sync with the repo anymore.
 
 ```bash
 rm -rf .git
