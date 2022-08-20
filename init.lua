@@ -64,4 +64,4 @@ Time to start loading some modules
 --]]
 
 require('options')
-
+require('plugins')
