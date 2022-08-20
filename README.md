@@ -59,6 +59,14 @@ git add -A
 git commit -m "initial commit using base template"
 ```
 
+Next launch Neovim and install all the plugins using `packer.nvim`. The `+PackerSync` syntax below tells Neovim to run the command on startup. You could also launch Neovim and run `:PackerSync` to achieve the same affect.
+
+```bash
+nvim +PackerSync
+```
+
+At this point all the plugins should be installed and the baseline ready to go. `init.lua` is the entry point and the best file to start with to learn how things work.
+
 ## Other options
 
 The Neovim ecosystem moves fast! It can be a lot of work building, updating, and maintaining your own personalized configuration. Sometimes, especially when starting out, you need a full batteries included preconfigured configuration to get you off the ground. There is a growing list of these configurations you can find [here](https://github.com/rockerBOO/awesome-neovim#preconfigured-configuration). Try anyone of these out and see if they work for you. If down the line you feel like you want to build your own this project will be here!
