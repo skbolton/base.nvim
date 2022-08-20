@@ -23,6 +23,6 @@ vim.opt.number = true
 vim.opt.number = true
 -- use 24-bit RGB colors (your terminal must support this to work - most modern ones do)
 vim.opt.termguicolors = true
--- how many spaces should a tab char be
+-- how many spaces should a tab be
 vim.opt.tabstop = 2
 
