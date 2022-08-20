@@ -8,7 +8,7 @@
 init.lua - the neovim configuration entrypoint
 
 Don't let all the text in this file bog you down - you can always remove it,
-but since this is the entrypoint of everything there is some context that are
+but since this is the entrypoint of everything there is some context that is
 helpful to explain here.
 
 When Neovim starts up it loads files as defined in `:help initialization`.
@@ -42,7 +42,7 @@ you want certain configuration to apply only in those filetypes.
 The `after/ftplugin` folder contains code we want run after a ftplugin is ran.
 The after folder gives us a spot to have a final say in configuration. Say a 
 ftplugin from a plugin does some configuration you really don't like. The 
-`after/ftplugin` folder give a spot to override any `ftplugin` operation
+`after/ftplugin` folder give a spot to override any `ftplugin` operation.
 
 The `lua` folder is where we can place any `lua` code that we right that we don't
 want auto loaded for us. Examples of these files are ones where we need to control
