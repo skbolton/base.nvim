@@ -12,7 +12,7 @@ This repo is a base template for those who want to skip using a [preconfigured c
 * Plugins added with a purpose
   - Every plugin added is also used as an example of how to do something else
   - No "everyone uses it so we added it"
-  - Users should be empowered to add plugins day 1 and extending their config - we don't want to take those opportunities away buy including too much
+  - Users should be empowered to add plugins day 1 and extending their config - we don't want to take those opportunities away by including too much
 * Programming language/Use case agnostic
   - Project should fork for anyone regardless of their reason for using Neovim
 * Well documented examples
