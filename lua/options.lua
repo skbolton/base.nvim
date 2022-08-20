@@ -26,3 +26,6 @@ vim.opt.termguicolors = true
 -- how many spaces should a tab be
 vim.opt.tabstop = 2
 
+-- TODO: Describe leader key
+vim.g.mapleader = " "
+

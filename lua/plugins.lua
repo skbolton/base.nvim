@@ -20,10 +20,18 @@ return require('packer').startup(function(use)
 
 			-- Set menu
 			dashboard.section.buttons.val = {
+				dashboard.button('<space>', 'find files', ':Telescope find_files<CR>'),
         dashboard.button('?', 'Learn Base', ':e init.lua<CR>')
 			}
 
 			alpha.setup(dashboard.opts)
     end
   }
+
+	use {
+    'nvim-telescope/telescope.nvim',
+		config = function()
+      require('fuzzy')
+		end
+	}
 end)
