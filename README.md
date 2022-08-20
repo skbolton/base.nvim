@@ -17,6 +17,8 @@ This repo is a base template for those who want to skip using a [preconfigured c
   - Project should fork for anyone regardless of their reason for using Neovim
 * Well documented examples
   - With any example shown there will be helpful comments linking to help docs
+* Scalable setup
+  - Config should be ready to grow with the user as they customize - for this reason the config is not presented as a single file
 
 ## Getting Started
 
