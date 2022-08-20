@@ -26,6 +26,14 @@ If you have an existing Neovim setup move it to a backup location in case you wa
 mv ~/.config/nvim ~/.config/nvim-backup
 ```
 
+Clone [packer.nvim](https://github.com/wbthomason/packer.nvim) the package manager used in this project to download and manage plugins.
+
+```bash
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+```
+
+
 Clone this repo to your config folder
 
 ```bash
