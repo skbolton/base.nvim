@@ -56,7 +56,7 @@ lua/folder1/folder2/my-file.lua` it could be required by calling:
 local my_module = require('folder1/folder2/my-file')
 
 The `.lua` extension is optional, also the folders can be represented with '/' or
-with '.'o
+with '.'.
 
 local my_module = require('folder1.folder2.my-file')
 
