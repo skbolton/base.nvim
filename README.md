@@ -1,5 +1,7 @@
 # Base
 
+> This project is a work in progress expect a bumpy road while things are getting filled in
+
 A baseline Neovim configuration that **anyone** can build from to have a setup uniquely **their own**.
 
 This repo is a base template for those who want to skip using a [preconfigured configuration](#other-options) of Neovim and would rather build their own configuration. This is **not** a batteries included experience, its more of a starting point to teach you how to fish.
