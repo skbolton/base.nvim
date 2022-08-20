@@ -35,4 +35,12 @@ return require('packer').startup(function(use)
       require('fuzzy')
 		end
 	}
+
+	use {
+    'sainnhe/everforest',
+		config = function()
+      vim.o.background = 'dark'
+			vim.cmd('colorscheme everforest')
+		end
+	}
 end)
