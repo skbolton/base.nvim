@@ -61,6 +61,8 @@ git commit -m "initial commit using base template"
 
 Next launch Neovim and install all the plugins using `packer.nvim`. The `+PackerSync` syntax below tells Neovim to run the command on startup. You could also launch Neovim and run `:PackerSync` to achieve the same affect.
 
+> run `:help startup-options` in Neovim for an explanation on the `+` syntax used here
+
 ```bash
 nvim +PackerSync
 ```
