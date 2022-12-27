@@ -32,8 +32,8 @@ configuration is the following:
 After this file (init.lua) is parsed neovim will recursively load all the
 `.lua` and `.vim` files found in the `plugin` folder. The plugin folder is a
 great place to put functions and code that you want loaded automatically and
-that aren't dependent on anything else. See the plugin folder for for when we
-take advantage of this.
+that aren't dependent on anything else. See the plugin folder for when we take
+advantage of this.
 
 The `ftplugin` folder is short for "filetype plugins". These files are
 automatically loaded when a file of that type is opened. This is helpful when
