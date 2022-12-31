@@ -7,7 +7,7 @@
 
 A place to set Neovim options.
 
-Neviom has a lot of options to affect editor behavior. Things like showing line
+Neovim has a lot of options to affect editor behavior. Things like showing line
 numbers, converting tabs to spaces, etc. All of them can be seen at `:help
 option-summary`.
 
@@ -26,6 +26,8 @@ vim.opt.termguicolors = true
 -- how many spaces should a tab be
 vim.opt.tabstop = 2
 
--- TODO: Describe leader key
+-- The "Leader key" is a way of extending the power of VIM's shortcuts by using sequences of keys to perform a command. 
+-- The default leader key is backslash. Therefore, if you have a map of <Leader>Q, you can perform that action by typing \Q.
+-- see `:help <leader>`
 vim.g.mapleader = " "
 
